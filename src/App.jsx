@@ -1,14 +1,17 @@
 import { useState } from 'react'
 import Test from './Components/Test';
+import Navbar1 from './Components/Navbar1';
+import Navbar2 from './Components/Navbar2';
 
 function App() {
  
 
   return (
-    <>
-      <h1>Import Your Components Here Under App.jsx Create Coponents At Components Folder Like I implemented Test Function</h1>
+    <div style={{marginTop: '110px'}}>
+      <Navbar1 />
+      <Navbar2 />
       <Test />
-    </>
+    </div>
   )
 }
 
